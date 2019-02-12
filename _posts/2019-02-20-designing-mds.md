@@ -15,7 +15,7 @@ Since launching the UBC MDS program in 2016, we've received a lot of questions o
 - And, of course, a few words on the content that we decided to teach in the program.
 
 ### Stat-CS partnership
-The UBC MDS program is an equal partnership between the [Department of Statistics](https://www.stat.ubc.ca/) and the [Department of Computer Science](https://www.cs.ubc.ca/). I have noticed that some other DS programs lack the statistics component, and I think that is a big loss. To us, data science is not just machine learning (and certainly not just deep learning!); it is a broad field about how to ask and answer questions using data. As an aside, the collaboration between departments has been extremely productive and pleasant. When I heard that multiple departments would be involved, I was expecting some of the politics that universities are so famous for. While I found some of that in other places, the CS-Stat collaboration has been great.
+The UBC MDS program is an equal partnership between the [Department of Statistics](https://www.stat.ubc.ca/) and the [Department of Computer Science](https://www.cs.ubc.ca/). I have noticed that some other DS programs lack the statistics component, and I think that is a big loss. To us, data science is not just computer programming and machine learning (and certainly not just deep learning!); it is a broad field about how to ask and answer questions using data. As an aside, the collaboration between departments has been extremely productive and pleasant. When I heard that multiple departments would be involved, I was expecting some of the politics that universities are so famous for. While I found some of that in other places, the CS-Stat collaboration at UBC has been great.
 
 ### 10-month program
 For many MDS students, the program's compact length is a major draw. For some, especially those leaving well-paying jobs to train in data science, a longer program simply would not be financially viable. (Of course, we also get many students who would prefer a longer program - it's hard to please everyone!) Fitting everything we wanted to teach into such a short window was a big challenge, but also an opportunity to reflect on what content we felt was truly essential. Some have also asked why we chose 10 months instead of 12. That is not for the students, but for us! The MDS team needs time to recharge every year, which is usually spent on a combination of vacation and improving the curriculum before the next cohort arrives. Overall, I am happy with this decision.
@@ -34,7 +34,7 @@ How did we organize this large-scale course creation process? Once the rough cou
 ### Instructor roles
 When MDS started out, the core teaching team consisted of two people: [Tiffany Timbers](http://tiffanytimbers.com/) (my fellow Option Co-Director) and myself. The program was set up with existing faculty members delivering the lectures and Tiffany/Mike teaching the labs. The idea was to bring in experts in each field from the pool of faculty members in the home departments, but without requiring an infeasibly large time commitment from these people; this way, we could bootstrap the program with only a small number of new hires (i.e., me and Tiffany). The lab instructors were meant to provide a consistent presence across all MDS courses so that the experience wouldn't feel "choppy" across so many small courses. 
 
-Of all the decisions described here, this one feels like the most notable failure. With two instructors sharing each course, the potential for miscommunication was/is high, often resulting in frustrations for the students. Furthermore, we have a specific teaching style in MDS -- very applied and hands-on -- and it was not reasonable for new instructors to immerse themselves in our methodologies for just 4 weeks' worth of teaching. As the program grows, we are building up a core teaching team and moving away from this model. We have been very fortunate to add [Vincenzo Coia](https://vincenzocoia.github.io/), [Giulio Valentino Dalla Riva](https://www.gvdallariva.net/) (now at the University of Canterbury), [Varada Kolhatkar](http://www.cs.toronto.edu/~varada/VaradaHomePage/Home.html), and [Rodolfo Lourenzutti](https://www.linkedin.com/in/rodolfo-lourenzutti/?originalSubdomain=ca) to the team. We also continue to benefit from the ideas and course materials created by the original set of instructors, and we continue to pick their brains for new developments in their respective fields.
+Of all the decisions described here, this is the one that has met with the least amount of success. With two instructors sharing each course, the potential for miscommunication was/is high, often resulting in frustrations for the students. Furthermore, we have a specific teaching style in MDS -- very applied and hands-on -- and it was not reasonable for new instructors to immerse themselves in our methodologies for just 4 weeks' worth of teaching. As the program grows, we are building up a core teaching team and moving away from this model. We have been very fortunate to add [Vincenzo Coia](https://vincenzocoia.github.io/), [Giulio Valentino Dalla Riva](https://www.gvdallariva.net/) (now at the University of Canterbury), [Varada Kolhatkar](http://www.cs.toronto.edu/~varada/VaradaHomePage/Home.html), and [Rodolfo Lourenzutti](https://www.linkedin.com/in/rodolfo-lourenzutti/?originalSubdomain=ca) to the team. We also continue to benefit from the ideas and course materials created by the original set of instructors, and we continue to pick their brains for new developments in their respective fields.
 
 ### Program prerequisites
 The prerequisite courses for entering the MDS program [are listed online](https://masterdatascience.ubc.ca/admissions), but here is the summary:
@@ -57,6 +57,34 @@ In the first year of the program (2016-17), each lab assignment was due at the s
 As a result of these difficulties, we switched to a single, unified deadline. This year, all the weekly lab assignments are due on Saturday at 6pm. We noticed a marked improvement in how lab sessions are used. This system has another major advantage: the students have no assigned work from Saturday 6pm until Monday morning. We feel that free time is extremely important for student wellbeing and productivity, especially within 10 months of intense study. 
 
 While this all may seem like a trivial matter of scheduling, I think it's actually very important and would encourage other programs to deliberately carve out free time for the students. 
+
+### Project courses
+In its first offering, the UBC MDS program offered all of its 24 DSCI 1-credit modules using a standard assessment format which consisted of:
+
+-	4 labs/assignments, each worth 12.5% of the students’ grade
+-	2 quizzes, each worth 25% of the students’ grade
+
+This standard assessment format worked very well for many courses, particularly those with heavy math, statistics or programming content. However, this format did not fare well with courses that required more writing, critical thinking and integration of knowledge from other (previously take) DSCI courses. Specifically, using student feedback (from the MDS interim and yearend surveys, student block-representative reports and informal discussions with Alumni) we identified that the following courses would benefit from an alternative assessment format:
+
+-	DSCI 522 – Data Science Workflows
+-	DSCI 531 – Data Visualization II
+-	DSCI 524 – Collaborative Software Development
+-	DSCI 554 –  Experimentation and Causal Inference
+
+We developed a new assessment strategy and tested it out in DSCI 522 (Data Science Workflows) where Tiffany was both the lecture and lab instructor. We decided to make the course a project-based course for two reasons, first, so that students had an opportunity to experience a complete Data Science project (from beginning to end) in a lower-stakes environment before the commenced their capstone projects, and second, this opportunity more easily allows the students to practice the integration of skills and concepts learned from previous courses with what they are currently learning. The following assessment strategy was tested in DSCI 522 (Data Science Workflows):
+
+-	A lab, worth 25% of the students’ grade
+- A project proposal, worth 5% of the students’ grade
+-	A project milestone (halfway point of the project), worth 30% of the students’ grade
+-	Final project submission, worth 40% of the students’ grade
+
+In general this worked well, but minor modifications were made in future courses to improve it further. Ideas for these improvements were generated by formal and informal student feedback, as well as informal TA feedback. Our project courses now generally run as follows:
+
+- All projects are group projects, and students are randomly assigned to teams
+- There are 4 project milestones, one due each Saturday at 6pm (working with the unified assignment deadline)
+- We work closely with the TAs to ensure feedback is returned to the students with 3-4 days
+- Include a team work assessment that counts for 10% of the student grade (the grade is based of self and group reports we ask the students to fill out as well as looking at the project's GitHub history)
+
 
 ### The content
 Rather than bloat an already-bloated blog post with a discussion of our curriulum, I will instead direct the reader to [this blog post](https://ubc-mds.github.io/2018-06-04-curriculum-CS-ML/) on the CS / machine learning stream of our curriculum. We are planning two more blog posts, on the statistics stream and "data science" stream, and I will add links here when they are posted. Beyond these 3 streams of MDS courses, the 2-month capstone course is also a critical part of our program. For more information of our capstone course, see our [capstone homepage](https://ubc-mds.github.io/capstone/about/), our [partners page](https://masterdatascience.ubc.ca/why-ubc/partners) and various posts on [this blog](https://ubc-mds.github.io/).
